@@ -30,6 +30,7 @@ public class BankMenuTest {
         verify(bankService, atLeast(1)).withdraw(bankAccount, amountWithdraw);
     }
 
+
     @Test
     public void testDepositMenu() {
         bankService = mock(BankService.class);
